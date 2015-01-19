@@ -1,0 +1,6 @@
+{
+  "name": "peter-music-player",
+  "root": "./",
+  "clean_urls": true,
+  "error_page": "error.html"
+}
