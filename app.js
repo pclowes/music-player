@@ -18,6 +18,7 @@ $('.tracks').on('click', '.fa-stop', function() {
   $('h2.select').html("Select a Song!");
   var id = $(this).data('id');
   document.getElementById(id).pause();
+  document.getElementById(id).currentTIme = 0;
 });
 
 $.getJSON('data.json', function(tracks) {
